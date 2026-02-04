@@ -21,4 +21,4 @@ Open Browser To Login Page
 Open Website Successfully
     Open Browser To Login Page
     Page Should Contain    วิทยาลัยการคอมพิวเตอร์
-	Close Browser
+    Close Browser
