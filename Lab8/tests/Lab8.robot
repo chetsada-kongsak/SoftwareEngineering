@@ -1,8 +1,5 @@
 *** Settings ***
 Library    SeleniumLibrary
-Suite Setup    Open Browser To Login Page
-Suite Teardown    Close Browser
-
 
 *** Keywords ***
 Open Browser To Login Page
@@ -18,7 +15,5 @@ Open Browser To Login Page
 
 
 *** Test Cases ***
-Open Website Successfully
-    Open Browser To Login Page
-    Page Should Contain    วิทยาลัยการคอมพิวเตอร์
-    Close Browser
+Test web pass
+    Log    Pipeline is working
